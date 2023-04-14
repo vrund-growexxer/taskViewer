@@ -50,3 +50,12 @@
   width: 90%;
   flex-wrap: wrap;
 }
+
+.todo__single{
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url('../assets/img/drew-beamer-kUHfMW8awpE-unsplash.jpg');
+}
