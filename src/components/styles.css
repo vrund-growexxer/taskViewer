@@ -59,3 +59,40 @@
   margin-top: 15px;
   background-image: url('../assets/img/drew-beamer-kUHfMW8awpE-unsplash.jpg');
 }
+
+.todos__single__text{
+  flex:1;
+  padding: 5px;
+  border:none;
+  font-size: 20px;
+}
+
+.todos__single__text:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .todo__single{
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .todos{
+    width: 95%;
+  }
+  .todo__single{
+    width: 100%;
+  }
+}
+
